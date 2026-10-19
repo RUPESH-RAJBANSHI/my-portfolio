@@ -2,7 +2,7 @@
 
 A personal portfolio website built to showcase my projects and skills as a full-stack developer.
 
-**Live site:** https://your-site.vercel.app *(add this after deploying)*
+**Live site:** https://my-portfolio-site.vercel.app *(add this after deploying)**
 
 ## Features
 
