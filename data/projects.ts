@@ -2,6 +2,7 @@ export type Project = {
   title: string;
   description: string;
   tech: string[];
+  category: "Full-Stack" | "Frontend";
   live?: string;
   github?: string;
 };
@@ -12,6 +13,7 @@ export const projects: Project[] = [
     description:
       "A comprehensive ERP system designed to manage business operations, including inventory, sales, purchases, accounting, and other essential business processes.",
     tech: ["Next.js", "React", "Node.js", "MongoDB", "TypeScript"],
+    category: "Full-Stack",
     live: "https://mayuraerp.com",
     github: "https://github.com/RUPESH-RAJBANSHI",
   },
@@ -23,10 +25,12 @@ export const projects: Project[] = [
       "Next.js",
       "React",
       "TypeScript",
+
       "Node.js",
       "MongoDB",
       "Tailwind CSS",
     ],
+    category: "Full-Stack",
     live: "https://dotnodepoint.com",
     github: "https://github.com/DotNodePoint-DNP/DNP-TECH-COMPANY",
   },
