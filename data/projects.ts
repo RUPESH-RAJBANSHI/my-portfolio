@@ -31,7 +31,7 @@ export const projects: Project[] = [
       "Tailwind CSS",
     ],
     category: "Full-Stack",
-    live: "https://dotnodepoint.com",
+    live: "https://dnp-tech-company.vercel.app",
     github: "https://github.com/DotNodePoint-DNP/DNP-TECH-COMPANY",
   },
 ];

@@ -38,12 +38,20 @@ export default function Contact() {
             >
               LinkedIn ↗
             </a>
-                        <a
+            <a
               href="https://www.facebook.com/rupesh.razbnc.7"
               target="_blank"
               className="block hover:text-white"
             >
               Facebook ↗
+            </a>
+            <a
+              href="/Rupesh_Rajbanshi_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block hover:text-white"
+            >
+              CV (PDF) ↗
             </a>
           </div>
         </div>

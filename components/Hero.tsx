@@ -45,19 +45,32 @@ export default function Hero() {
           className="fade-up mt-10 flex flex-wrap gap-4"
           style={{ animationDelay: "0.4s" }}
         >
-          <a
-            href="#projects"
-            className="rounded-lg bg-gradient-to-r from-indigo-500 to-cyan-500 px-7 py-3 font-medium text-white shadow-lg shadow-indigo-500/20 transition hover:scale-105"
+          <div
+            className="fade-up mt-10 flex flex-wrap gap-4"
+            style={{ animationDelay: "0.4s" }}
           >
-            View Projects
-          </a>
-          <a
-            href="/resume.pdf"
-            download
-            className="rounded-lg border border-white/15 px-7 py-3 font-medium transition hover:bg-white/5"
-          >
-            Download Resume
-          </a>
+            <a
+              href="#projects"
+              className="rounded-lg bg-gradient-to-r from-indigo-500 to-cyan-500 px-7 py-3 font-medium text-white shadow-lg shadow-indigo-500/20 transition hover:scale-105"
+            >
+              View Projects
+            </a>
+            <a
+              href="/Rupesh_Rajbanshi_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-lg border border-white/15 px-7 py-3 font-medium transition hover:bg-white/5"
+            >
+              View CV
+            </a>
+            <a
+              href="/Rupesh_Rajbanshi_CV.pdf"
+              download
+              className="rounded-lg px-7 py-3 font-medium text-gray-400 transition hover:text-white"
+            >
+              Download CV ↓
+            </a>
+          </div>
           <a
             href="#contact"
             className="rounded-lg px-7 py-3 font-medium text-gray-400 transition hover:text-white"
