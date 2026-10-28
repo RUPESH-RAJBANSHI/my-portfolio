@@ -2,15 +2,16 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "description": "",
-"scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "lucide-react": "^1.62.0",
     "next": "^16.4.2",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"

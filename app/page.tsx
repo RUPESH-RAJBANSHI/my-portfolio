@@ -7,6 +7,7 @@ import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Reveal from "../components/Reveal";
 import BackToTop from "../components/BackToTop";
+import TeamSection from "../components/TeamSection";
 
 export default function Home() {
   return (
@@ -26,6 +27,9 @@ export default function Home() {
         <Reveal>
           <Projects />
         </Reveal>
+        <Reveal>
+          <TeamSection />
+          </Reveal>
         <Reveal>
           <Contact />
         </Reveal>
